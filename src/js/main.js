@@ -51,5 +51,12 @@ function urlify(input) {
 
   window.addEventListener('load', async function() {
     await registerSW();
+    try {
+      this.document.title = this.localStorage.getItem("title");
+      this.document.getElementById("favicon").href = this.localStorage.getItem("favicon")
+    } catch {
+      console.log("No settings present.")
+    }
+
 })  
 
