@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "http-proxy-middleware": "^2.0.6",
+    "tailwindcss": "^3.4.1"
+  },
+  "dependencies": {
+    "@nlux/core": "^0.12.1",
+    "@nlux/openai": "^0.12.1",
+    "@tomphttp/bare-server-node": "^2.0.1",
+    "express": "^4.18.2"
+  }
+}
