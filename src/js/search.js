@@ -6,3 +6,10 @@ searchButton.addEventListener('click', function() {
     const url = search(searchField.value, "lmao");
     location.href = __uv$config.prefix + __uv$config.encodeUrl(url);
 })  
+
+searchField.onkeydown = function(e){
+    if(e.keyCode == 13){
+        const url = search(searchField.value, "lmao");
+        location.href = __uv$config.prefix + __uv$config.encodeUrl(url);
+    }
+ };
