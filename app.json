@@ -1,0 +1,8 @@
+{
+  "name": "Xen",
+  "description": "simple.",
+  "repository": "https://github.com/xenongh/Xen",
+  "logo": "https://github.com/xenongh/Xen/blob/master/src/assets/images/other/xen.jpg?raw=true",
+  "keywords": ["school", "ub", "games"],
+  "image": "heroku/nodejs"
+}
