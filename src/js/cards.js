@@ -27,7 +27,7 @@ const cardData = [
         "name": "Venge.io",
         "body": "Venge is an objective-based first person shooter. On this fps game, every match is an intense competition!",
         "image": "/assets/images/games/venge.png",
-        "link": "/p/frame.html?frame=https://venge.io/"
+        "link": "/pframe.html?frame=https://venge.io/"
     },
     {
         "name": "Zombs Royale",
