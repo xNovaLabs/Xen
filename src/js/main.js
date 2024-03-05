@@ -11,7 +11,7 @@ function search(input, template) {
     } catch (err) {
     }
     template = "https://www.google.com/search?q=%s";
-    return template.replace("%s", encodeURIComponent(input));
+    return template.replace("%s", (input));
   }
 
 function urlify(input) {
@@ -25,7 +25,7 @@ function urlify(input) {
     if (url.hostname.includes(".")) return url.toString();
   } catch (err) {
   }
-  return encodeURIComponent(input);
+  return (input);
 }
 
 
