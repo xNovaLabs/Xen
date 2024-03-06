@@ -34,6 +34,12 @@ const cardData = [
         "body": "ZombsRoyale.io is a 2D battle royale video game developed by an American studio, End Game. It was released in 2018.",
         "image": "/assets/images/games/zombsroyale.png",
         "link": "/pframe.html?frame=https://zombsroyale.io/"
+    },
+    {
+        "name": "PixelWarfare",
+        "body": "Pixel Warfare is a free 3D first-person shooter multiplayer game with graphics inspired by Minecraft.",
+        "image": "/assets/images/games/pixelwarfare.png",
+        "link": "/pframe.html?frame=https://pixelwarfare.io/"
     }
     
 ]

@@ -53,6 +53,13 @@ const cardData = [
         "image": "/assets/images/apps/x.png",
         "link": "/pframe.html?frame=https:/x.com"
     },
+    {
+        "name": "Reddit",
+        "body": "Reddit is an American social news aggregation, content rating, and forum social network. Registered users submit content to the site such as links, text posts, videos, images, and much more. ",
+        "image": "/assets/images/apps/reddit.png",
+        "link": "/pframe.html?frame=https:/reddit.com"
+    },
+    
     
     
 
