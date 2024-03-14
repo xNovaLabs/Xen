@@ -63,7 +63,33 @@
             </div>
             <div class="space-y-4">
                 <button id="saveButton" class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-9 rounded-md px-3">
-                    Save Changes
+                    Save
+                </button>
+            </div>
+          </div>
+        </div>
+       <div class="container px-4 grid gap-6 md:px-6">
+            <div class="space-y-4">
+              <div class="space-y-2">
+                <h2 class="text-xl font-bold">Panic</h2>
+                <p class="text-sm text-gray-500 dark:text-gray-400">Manage your panic button settings.</p>
+                <input
+                  class="flex h-10 rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 w-[300px] peer"
+                  id="panic"
+                  placeholder="Panic Key"
+                />
+              </div>
+              <div class="space-y-2">
+                <input
+                  class="flex h-10 rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 w-[300px] peer"
+                  id="panicLink"
+                  placeholder="Panic Link"
+                />
+              </div>
+            </div>
+            <div class="space-y-4">
+                <button id="panicButtonSave" class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-9 rounded-md px-3">
+                    Save
                 </button>
             </div>
           </div>

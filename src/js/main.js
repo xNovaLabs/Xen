@@ -67,3 +67,10 @@ window.addEventListener("load", function() {
   
 })
 
+window.onkeydown = function(e){
+  if (localStorage.getItem("panicButton") != null) {
+    if(e.key == localStorage.getItem("panicButton")){
+      window.location.href = localStorage.getItem("panicLink")
+  }
+  }
+};
