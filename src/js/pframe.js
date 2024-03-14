@@ -7,7 +7,6 @@ window.addEventListener('load', async function() {
         this.localStorage.setItem("pframeSrc", frame)
         this.window.location.href = "/pframe.html";
     } else {
-        console.log(__uv$config.prefix + __uv$config.encodeUrl(this.localStorage.getItem("pframeSrc")));
         pframe.src = __uv$config.prefix + __uv$config.encodeUrl(this.localStorage.getItem("pframeSrc"));
     }
     

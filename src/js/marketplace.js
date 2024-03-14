@@ -195,13 +195,7 @@ function uninstallApp(gameName) {
     return false
 }
 
-window.addEventListener("load", function() {
-    if (localStorage['installedApps'] == null) {
-        this.localStorage.setItem("installedApps", JSON.stringify(installedApps))
-        this.window.location.reload();
-    }
-    
-})
+
 
 
 gameMethods()
