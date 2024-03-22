@@ -1,6 +1,6 @@
-// https://github.com/MarcellPerger1/adblock-bookmarklet
+// plugin from https://github.com/MarcellPerger1/adblock-bookmarklet
 (function (what) {
-  alert("installed.");
+  alert("installed adblock. enjoy!");
   console.log(window.location.href);
   function shouldIgnore(elem) {
     for (let s of what.ignore?.selector ?? []) {

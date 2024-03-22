@@ -110,6 +110,20 @@ const cardData = [
     image: "/assets/images/other/adblocker.png",
     link: "/assets/plugins/adblock.txt",
     type: "Passive Plugin"
+  },
+  {
+    name: "Eruda",
+    body: "An inspect element menu, in your browser even when its blocked!",
+    image: "/assets/images/other/eruda.png",
+    link: "erudaPlugin();",
+    type: "Active Plugin"
+  },
+  {
+    name: "DevConsole",
+    body: "Custom Developer Console made by SnowLord7. Allows you to do multiple different actions with the console.",
+    image: "/assets/images/other/devconsole.png",
+    link: "devconsolePlugin();",
+    type: "activePlugin();"
   }
 ];
 
