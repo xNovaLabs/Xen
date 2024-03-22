@@ -9,6 +9,8 @@ const plugins = [
 ];
 
 window.addEventListener("load", async function () {
+  const searchField = document.getElementById("searchField");
+  const searchButton = document.getElementById("searchButton");
   const urlParams = new URLSearchParams(window.location.search);
   const frame = urlParams.get("frame");
   const pframe = document.getElementById("pframe");
@@ -39,6 +41,19 @@ window.addEventListener("load", async function () {
     });
   };
   pluginView();
+
+  searchButton.addEventListener("click", function () {
+    console.log("search click");
+    const url = search(searchField.value, "lmao");
+    location.href = "/pframe.html?frame=" + url;
+  });
+
+  searchField.onkeydown = function (e) {
+    if (e.keyCode == 13) {
+      const url = search(searchField.value, "lmao");
+      location.href = "/pframe.html?frame=" + url;
+    }
+  };
 });
 
 function erudaPlugin() {}
