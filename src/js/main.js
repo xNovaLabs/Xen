@@ -1,3 +1,6 @@
+let wispUrl = (location.protocol === "https:" ? "wss" : "ws") + "://" + location.host + "/wisp/";
+BareMux.SetTransport("EpxMod.EpoxyClient", { wisp: wispUrl });
+
 function search(input, template) {
   try {
     template = "https://www.google.com/search?q=%s";
@@ -25,6 +28,7 @@ function urlify(input) {
 }
 
 async function registerSW() {
+  console.log("hi");
   if (!navigator.serviceWorker) {
     if (location.protocol !== "https:")
       throw new Error("Service workers cannot be registered without https.");
@@ -35,9 +39,6 @@ async function registerSW() {
   await navigator.serviceWorker.register("/uv/sw.js", {
     scope: __uv$config.prefix
   });
-
-  let wispUrl = (location.protocol === "https:" ? "wss" : "ws") + "://" + location.host + "/wisp/";
-  BareMux.SetTransport("EpxMod.EpoxyClient", { wisp: wispUrl });
 }
 
 window.addEventListener("load", async function () {

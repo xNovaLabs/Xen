@@ -1,3 +1,13 @@
+const plugins = [
+  {
+    name: "Eruda",
+    body: "An inspect element menu, in your browser even when its blocked!",
+    image: "/assets/images/other/eruda.png",
+    link: "erudaPlugin();",
+    type: "Active Plugin"
+  }
+];
+
 window.addEventListener("load", async function () {
   const urlParams = new URLSearchParams(window.location.search);
   const frame = urlParams.get("frame");
@@ -17,4 +27,18 @@ window.addEventListener("load", async function () {
       pframeDocument.body.appendChild(script);
     }
   }
+  const pluginView = () => {
+    plugins.map((pluginData) => {
+      const pluginListing = document.createElement("li");
+      pluginListing.innerHTML = `
+      <a onclick=${pluginData.link} class="block px-4 py-2 hover:bg-white text-gray-700 ">${pluginData.name}</a>
+      `;
+
+      const pluginDropdown = document.getElementById("dropdowns");
+      pluginDropdown.appendChild(pluginListing);
+    });
+  };
+  pluginView();
 });
+
+function erudaPlugin() {}
