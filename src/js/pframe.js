@@ -19,7 +19,6 @@ window.addEventListener("load", async function () {
   let wispUrl = (location.protocol === "https:" ? "wss" : "ws") + "://" + location.host + "/wisp/";
   BareMux.SetTransport("EpxMod.EpoxyClient", { wisp: wispUrl });
   await registerSW();
-  this.alert("if the search doesn't work. reload the page and it'll work.");
   const searchField = document.getElementById("searchField");
   const searchButton = document.getElementById("searchButton");
   const urlParams = new URLSearchParams(window.location.search);
