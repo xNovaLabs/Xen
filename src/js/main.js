@@ -1,7 +1,3 @@
-registerSW();
-let wispUrl = (location.protocol === "https:" ? "wss" : "ws") + "://" + location.host + "/wisp/";
-BareMux.SetTransport("EpxMod.EpoxyClient", { wisp: wispUrl });
-
 function search(input, template) {
   try {
     template = "https://www.google.com/search?q=%s";
