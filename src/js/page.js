@@ -1,3 +1,9 @@
+alert(
+  "temporarily disabled about:blank cloaking due to wisp issues. join discord for more updates & links."
+);
+
+/*
+
 let frame = false;
 
 try {
@@ -34,3 +40,5 @@ if (!frame && !navigator.userAgent.includes("Firefix")) {
         location.replace("https://google.com")
     }
 }
+
+*/
