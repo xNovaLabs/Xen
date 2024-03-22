@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Search</title>
-    <link href="./css/output.css" rel="stylesheet">
-    <link id="favicon" rel="shortcut icon" type="image/png" href="assets/images/other/151425615.png"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Search</title>
+  <link href="./css/output.css" rel="stylesheet">
+  <link id="favicon" rel="shortcut icon" type="image/png" href="assets/images/other/151425615.png" />
 </head>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-FDX137ZK6F"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
+  function gtag() { dataLayer.push(arguments); }
   gtag('js', new Date());
 
   gtag('config', 'G-FDX137ZK6F');
@@ -22,9 +23,7 @@
 <script src="uv/uv.bundle.js" defer></script>
 <script src="uv/uv.config.js" defer></script>
 <script src="js/main.js"></script>
-<script>
-  await registerSW();
-</script>
+
 
 <style>
   input[type="search"]::-webkit-search-cancel-button,
@@ -32,73 +31,52 @@
   input[type="search"]::-webkit-search-results-button,
   input[type="search"]::-webkit-search-results-decoration {
     display: none;
-}
+  }
 </style>
+
 <body>
   <div class="pt-6 pl-6 overscroll-none">
-    <a class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-9 rounded-md px-3" href="/">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="24"
-          height="24"
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="currentColor"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          class="mr-1 h-4 w-4"
-        >
-          <path d="m15 18-6-6 6-6"></path>
-        </svg>
-        Back
+    <a class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-9 rounded-md px-3"
+      href="/">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-1 h-4 w-4">
+        <path d="m15 18-6-6 6-6"></path>
+      </svg>
+      Back
     </a>
-    </div>
-    <div class="flex justify-center items-center text-center pt-6 lg:pt-24">
+  </div>
+  <div class="flex justify-center items-center text-center pt-6 lg:pt-24">
     <div class="space-y-4 pb-8">
       <h2 class="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Search</h2>
-      <p class="mx-auto max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+      <p
+        class="mx-auto max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
         welcome to the search page, here you can enter your query.
       </p>
     </div>
-    </div>
-    <div class="flex items-center justify-center pt-6">
+  </div>
+  <div class="flex items-center justify-center pt-6">
     <div class="flex w-full max-w-sm items-center">
-        <div class="relative w-full">
-          <input
-            class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
-            placeholder="Search"
-            type="search"
-            id="searchField"
-          />
-          <div class="absolute inset-y-0 right-0 flex items-center px-2.5">
-            <button
-              class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent hover:text-accent-foreground h-10 w-10"
-              type="button"
-              id="searchButton"
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                class="h-4 w-4"
-              >
-                <circle cx="11" cy="11" r="8"></circle>
-                <path d="m21 21-4.3-4.3"></path>
-              </svg>
-              <span class="sr-only">Search</span>
-            </button>
-          </div>
+      <div class="relative w-full">
+        <input
+          class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+          placeholder="Search" type="search" id="searchField" />
+        <div class="absolute inset-y-0 right-0 flex items-center px-2.5">
+          <button
+            class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent hover:text-accent-foreground h-10 w-10"
+            type="button" id="searchButton">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4">
+              <circle cx="11" cy="11" r="8"></circle>
+              <path d="m21 21-4.3-4.3"></path>
+            </svg>
+            <span class="sr-only">Search</span>
+          </button>
         </div>
       </div>
-      </div>
+    </div>
+  </div>
 
-      <script src="js/search.js"></script>
-    </body>
+  <script src="js/search.js"></script>
+</body>
+
 </html>
