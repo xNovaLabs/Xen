@@ -17,12 +17,6 @@
 
   gtag('config', 'G-FDX137ZK6F');
 </script>
-<script src="baremux/bare.cjs"></script>
-<script src="epoxy/index.js"></script>
-<script>
-  let wispUrl = (location.protocol === "https:" ? "wss" : "ws") + "://" + location.host + "/wisp/";
-  BareMux.SetTransport("EpxMod.EpoxyClient", { wisp: wispUrl });
-</script>
 <script src="uv/uv.bundle.js"></script>
 <script src="uv/uv.config.js"></script>
 <script src="js/main.js"></script>
@@ -30,7 +24,6 @@
 
 <body>
   <script src="js/pframe.js"></script>
-
 
   <nav class="bg-gray-100 border-gray-300 ">
     <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
