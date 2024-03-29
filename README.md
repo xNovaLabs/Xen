@@ -2,7 +2,6 @@
   <img src="https://github.com/xenongh/Xen/blob/master/src/assets/images/other/Untitled.jpg">
 </div>
 
-![inpreview](https://github.com/xenongh/Xen/blob/master/src/assets/images/other/Untitled.jpg)
 
 
 
