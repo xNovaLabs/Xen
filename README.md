@@ -2,7 +2,7 @@
   <img src="https://github.com/xenongh/Xen/blob/master/src/assets/images/other/Untitled.jpg">
 </div>
 
-![inpreview](https://github.com/InterstellarNetwork/Interstellar/assets/89202835/2669efed-5186-4932-83c4-725acae60bd2)
+![inpreview](https://github.com/xenongh/Xen/blob/master/src/assets/images/other/Untitled.jpg)
 
 
 
