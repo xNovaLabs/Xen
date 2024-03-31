@@ -1,0 +1,16 @@
+{
+    "short_name": "Xen",
+    "name": "Xen | Web Proxy",
+    "icons": [
+      {
+        "src": "favicon.png",
+        "type": "image/png",
+        "sizes": "450x450"
+      }
+    ],
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#b4213b",
+    "background_color": "#1f003e"
+  }
+  

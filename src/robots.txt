@@ -1,0 +1,61 @@
+User-agent: Googlebot
+Allow: /
+Allow: /frame.html
+Allow: /library.html
+Allow: /marketplace.html
+Allow: /pframe.html
+Allow: /search.html
+Allow: /settings.html
+Allow: /index.html
+
+User-agent: Bingbot
+Allow: /
+Allow: /frame.html
+Allow: /library.html
+Allow: /marketplace.html
+Allow: /pframe.html
+Allow: /search.html
+Allow: /settings.html
+Allow: /index.html
+
+User-agent: Slurp
+Allow: /
+Allow: /frame.html
+Allow: /library.html
+Allow: /marketplace.html
+Allow: /pframe.html
+Allow: /search.html
+Allow: /settings.html
+Allow: /index.html
+
+User-agent: DuckDuckBot
+Allow: /
+Allow: /frame.html
+Allow: /library.html
+Allow: /marketplace.html
+Allow: /pframe.html
+Allow: /search.html
+Allow: /settings.html
+Allow: /index.html
+
+User-agent: Baiduspider
+Allow: /
+Allow: /frame.html
+Allow: /library.html
+Allow: /marketplace.html
+Allow: /pframe.html
+Allow: /search.html
+Allow: /settings.html
+Allow: /index.html
+
+User-agent: YandexBot
+Allow: /
+Allow: /frame.html
+Allow: /library.html
+Allow: /marketplace.html
+Allow: /pframe.html
+Allow: /search.html
+Allow: /settings.html
+Allow: /index.html
+
+Sitemap: https://xenub.com/sitemap.xml
