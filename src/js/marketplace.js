@@ -123,8 +123,23 @@ const cardData = [
     body: "Custom Developer Console made by SnowLord7. Allows you to do multiple different actions with the console.",
     image: "/assets/images/other/devconsole.png",
     link: "devconsolePlugin();",
-    type: "activePlugin();"
-  }
+    type: "Active Plugin"
+  },
+  {
+    name: "FPS Graph",
+    body: "Allows you to view current FPS on the current website you are using through Xen",
+    image: "/assets/images/other/devconsole.png",
+    link: "javascript:(function()%7Bvar%20script%20%3D%20document.createElement('script')%3B%0Ascript.onload%20%3D%20function()%20%7B%0A%20%20%20%20var%20stats%20%3D%20new%20Stats()%3B%0A%20%20%20%20document.body.appendChild(stats.dom)%3B%0A%20%20%20%20requestAnimationFrame(function%20loop()%20%7B%0A%20%20%20%20%20%20%20%20stats.update()%3B%0A%20%20%20%20%20%20%20%20requestAnimationFrame(loop)%0A%20%20%20%20%7D)%3B%0A%7D%3B%0Ascript.src%20%3D%20'https%3A%2F%2Fmrdoob.github.io%2Fstats.js%2Fbuild%2Fstats.min.js'%3B%0Adocument.head.appendChild(script)%3B%7D)()%3B",
+    type: "Active Plugin"
+  },
+  {
+    name: "JS Injector",
+    body: "Allows you to inject custom javascript code into the websites you are currently using through Xen. *BROKEN*",
+    image: "/assets/images/other/devconsole.png",
+    link: "injector();",
+    type: "Active Plugin"
+  },
+  
 ];
 
 const gameContainer = document.getElementById("gameContainer");

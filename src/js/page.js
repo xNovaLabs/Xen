@@ -11,7 +11,7 @@ if (!frame && !navigator.userAgent.includes("Firefix")) {
   const abcloak = open("about:blank", "_blank");
 
   if (!abcloak || abcloak.closed) {
-    alert("Allow popups & redirects.");
+    alert("Allow popups & redirects for About:Blank Cloaking. By clicking okay, you agree to NovaLabs' TOS and Privacy Policy.");
   } else {
     const p = abcloak.document;
     const frameo = p.createElement("iframe");
