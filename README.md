@@ -33,7 +33,7 @@ a nova labs project.
 To deploy this project run
 
 ```bash
-  git clone https://github.com/xenongh/Xen.git
+  git clone https://github.com/xNovaLabs/Xen.git
   cd Xen
   npm i
   node index.mjs
@@ -41,10 +41,10 @@ To deploy this project run
 
 or alternatively, use one of the deployment services below
 <br><br>
-<a target="_blank" href="https://render.com/deploy?repo=https://github.com/xenongh/xen"><img alt="Deploy to Render" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/render.svg"></a>
-<a target="_blank" href="https://heroku.com/deploy/?template=https://github.com/xenongh/xen"><img alt="Deploy to Heroku" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/heroku.svg"></a>
-<a target="_blank" href="https://app.koyeb.com/deploy?type=git&repository=github.com/xenongh/xen"><img alt="Deploy to Koyeb" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/koyeb.svg"></a>
-<a target="_blank" href="https://app.cyclic.sh/api/app/deploy/xenongh/xen"><img alt="Deploy to Cyclic" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/cyclic.svg"></a>
+<a target="_blank" href="https://render.com/deploy?repo=https://github.com/xNovaLabs/xen"><img alt="Deploy to Render" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/render.svg"></a>
+<a target="_blank" href="https://heroku.com/deploy/?template=https://github.com/xNovaLabs/xen"><img alt="Deploy to Heroku" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/heroku.svg"></a>
+<a target="_blank" href="https://app.koyeb.com/deploy?type=git&repository=github.com/xNovaLabs/xen"><img alt="Deploy to Koyeb" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/koyeb.svg"></a>
+<a target="_blank" href="https://app.cyclic.sh/api/app/deploy/xNovaLabs/xen"><img alt="Deploy to Cyclic" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/cyclic.svg"></a>
 
 
 ## Roadmap
@@ -55,17 +55,17 @@ or alternatively, use one of the deployment services below
 
 - Adding Transport Options (epoxy, libcurl)
 
-- implmenting [qVM](https://github.com/xenongh/qVM)
+- implmenting [qVM](https://github.com/xNovaLabs/qVM)
 
 - adding more plugins
 
 - adding more games
 
-- nowgg bypass implementation [bypass](https://github.com/xenongh/nowgg-bypass)
+- nowgg bypass implementation [bypass](https://github.com/xNovaLabs/nowgg-bypass)
 
 - bare switcher
 
-- unbackend implmentation [unbackend](https://github.com/xenongh/unbackend)
+- unbackend implmentation [unbackend](https://github.com/xNovaLabs/unbackend)
 
 
 ## Contributing
